@@ -1,0 +1,25 @@
+name:           eventsProcess
+version:        0.1
+cabal-version:  >= 1.2
+build-type:     Simple
+author:         miguelnegrao
+
+executable eventsProcess
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+      base >= 4,
+      tagsoup,
+      HTTP,
+      data-default,
+      text,
+      iCalendar >= 0.2,
+      uuid,
+      time,
+      containers,
+      bytestring,
+      old-locale
+
+  ghc-options:     -Wall
+
+
